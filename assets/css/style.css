@@ -77,7 +77,11 @@ footer {
     background-color: pink;
     width: 100%;
     text-align: center;
-    padding: 0.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.5em;
+    border-top-left-radius: 10em;
+    border-bottom-right-radius: 10em;
 }
 
 .horizontal-section {
