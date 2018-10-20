@@ -1,0 +1,32 @@
+{
+  "name": "krono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coelhojs/Krono.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coelhojs/Krono/issues"
+  },
+  "homepage": "https://github.com/coelhojs/Krono#readme",
+  "dependencies": {
+    "angular": "^1.7.5",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.2.1",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
