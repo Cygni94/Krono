@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import { Worklog } from "./worklog";
 
 class Task {
     private id: number;
@@ -6,18 +6,16 @@ class Task {
     private creationDate: Date;
     private dueDate: Date;
     private recurrency: number;
+    private workLog: Worklog;
 
     constructor(name: string, dueDate?: Date) {
         this.id = 0;
         this.name = name;
         this.creationDate = new Date();
         this.dueDate = dueDate;
+        this.recurrency = 0;
+        this.workLog = null;
     }
 }
-const taskSchema = new mongoose.Schema({
-    _id: { type: Number, unique: true },
-    name: String,
-    creationDate: Date,
-    dueDate: Date,
-    recurrency: Number
-}, { timestamps: true });
+
+export default Task;
